@@ -16,10 +16,7 @@ class APIController extends Controller
         return response()->json($res);
     }
 
-    private function send_email_to_subscribers($to, $title, $subject, $data=[])
-    {
 
-    }
 
     public function create_post(Request $request)
     {
